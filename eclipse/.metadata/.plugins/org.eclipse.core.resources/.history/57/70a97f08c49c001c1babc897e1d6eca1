@@ -1,0 +1,11 @@
+package lucidclient.mod.cosmetics;
+
+import net.minecraft.client.entity.AbstractClientPlayer;
+
+public class CapeChecker {
+	
+	public boolean ownsCape(AbstractClientPlayer entitylivingbaseIn) {
+		
+	}
+
+}

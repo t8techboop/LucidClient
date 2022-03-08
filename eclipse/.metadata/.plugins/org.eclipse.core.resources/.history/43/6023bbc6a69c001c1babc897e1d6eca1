@@ -1,0 +1,17 @@
+package lucidclient;
+
+public class LucidClient {
+	public String NAME = "Lucid Client ", VERSION = "1.0 ", AUTHOR = "Thomas404";  
+	public static LucidClient INSTANCE = new LucidClient();
+	
+	public void startup() {
+		System.out.println(NAME + VERSION + AUTHOR);
+
+	}
+	
+	public void shutdown() {
+		System.out.println("Shutting down");
+
+	}
+
+}

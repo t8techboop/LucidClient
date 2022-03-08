@@ -1,0 +1,16 @@
+package lucidclient.hud.mod;
+
+import java.util.ArrayList;
+
+public class HudManager {
+	public ArrayList<HudMod> hudMods = new ArrayList<>();
+	
+	public HudManager() {
+		
+	}
+	
+	public void renderMods() {
+		
+	}
+
+}

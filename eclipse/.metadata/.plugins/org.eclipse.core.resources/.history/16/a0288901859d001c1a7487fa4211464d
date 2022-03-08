@@ -1,0 +1,7 @@
+package lucidclient.hud.mod.impl;
+
+import lucidclient.hud.mod.HudMod;
+
+public class TestMod extends HudMod{
+
+}

@@ -1,0 +1,20 @@
+package lucidclient.util.config;
+
+import java.io.File;
+
+public class Config {
+	
+	public File configFolder = new File("LucidClient");
+	public File ModsFolder = new File("LucidClient/Mods");
+	
+	public Configuration config, configToSave = ConfigurationAPI.newConfiguration(new File("ModsFolderMod/ModConfiguration.CFG"));
+	
+	public void saveModConfig() {
+		
+		if(!configFolder.exists()) {
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package lucidclient.event.impl;
+
+public class EventUpdate {
+
+}

@@ -1,0 +1,5 @@
+package lucidclient.mod;
+
+public class ModManager {
+
+}

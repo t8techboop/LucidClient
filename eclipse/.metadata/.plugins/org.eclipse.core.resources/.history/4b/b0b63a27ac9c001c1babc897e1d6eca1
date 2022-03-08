@@ -1,0 +1,40 @@
+package lucidclient.mod;
+
+import lucidclient.LucidClient;
+
+public class Mod {
+
+	
+	public String name, description;
+	public boolean enabled;
+	public Category category;
+	
+	public Mod(String name, String description, Category category) {
+		this.name = name;
+		this.description = description;
+		this.category = category;
+		
+		this.enabled = true;
+	}
+	
+	public void onEnable() {
+		LucidClient.INSTANCE.eventManager.register(this);
+
+	}
+	
+    public void onDisable() {
+    	LucidClient.INSTANCE.eventManager.unregister(this);		
+    	
+	}
+    
+    public void setEnabled(boolean enabled) {
+    	this.enabled = enabled;
+    	if(enabled) {
+    		onEnable();
+    	} else {
+    		onDisable();
+    	}
+    }
+
+
+}

@@ -1,0 +1,16 @@
+package lucidclient.mod.cosmetics;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.entity.AbstractClientPlayer;
+
+public class CapeChecker {
+	
+	public boolean ownsCape(AbstractClientPlayer entitylivingbaseIn) {
+		if(entitylivingbaseIn.getName().equals("Terminator0011")) {
+			return true;
+		} else return false;
+		
+		
+	}
+
+}

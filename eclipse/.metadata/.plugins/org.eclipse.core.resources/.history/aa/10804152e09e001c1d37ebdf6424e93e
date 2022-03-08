@@ -1,0 +1,5 @@
+package lucidclient.util.config;
+
+public class Config {
+
+}

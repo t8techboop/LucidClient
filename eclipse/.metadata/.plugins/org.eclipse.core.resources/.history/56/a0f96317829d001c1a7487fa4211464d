@@ -1,0 +1,5 @@
+package lucidclient.hud.mod;
+
+public class HudManager {
+
+}

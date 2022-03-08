@@ -1,0 +1,11 @@
+package lucidclient.mod;
+
+public class Category {
+	
+	HUD,
+	WORLD,
+	MISC,
+	CSOMETIC
+	
+
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="lucidclient.ui.LucidClientMainMenu"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiButton"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiSelectWorld"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiOptions"/>
+    <fullyQualifiedTypeName name="org.lwjgl.util.Color"/>
+    <fullyQualifiedTypeName name="java.awt.font.FontRenderContext"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.FontRenderer"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.DraggableComponent"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.HudManager"/>
+    <fullyQualifiedTypeName name="lucidclient.mod.impl.TestMod"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.TestMod"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.HUDConfigScreen"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.FPSMod"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.TargetHUD"/>
+    <fullyQualifiedTypeName name="net.minecraft.entity.EntityLivingBase"/>
+    <fullyQualifiedTypeName name="net.minecraft.entity.passive.EntitySheep"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.ScaledResolution"/>
+    <fullyQualifiedTypeName name="lucidclient.LucidClient"/>
+    <fullyQualifiedTypeName name="lucidclient.ui.clickgui.ClickGui"/>
+    <fullyQualifiedTypeName name="lucidclient.ui.clickgui.comp.ModButton"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.tileentity.TileEntitySkullRenderer"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.multiplayer.ServerList"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiMultiplayer"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.inventory.GuiInventory"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.GlStateManager"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.entity.AbstractClientPlayer"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.HudMod"/>
+    <fullyQualifiedTypeName name="javax.swing.text.JTextComponent.KeyBinding"/>
+    <fullyQualifiedTypeName name="javax.crypto.spec.DHPrivateKeySpec"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.settings.KeyBinding"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.ibm.icu.impl.ICUService.Key"/>
+    <fullyQualifiedTypeName name="java.security.Key"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.Gui"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.Keystrokes.Key"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+    <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.Keystrokes"/>
+</qualifiedTypeNameHistroy>

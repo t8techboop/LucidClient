@@ -1,0 +1,16 @@
+package lucidclient.ui.clickgui.comp;
+
+import lucidclient.hud.mod.HudMod;
+
+public class ModButton {
+	
+	public int x, y, w, h;
+	
+	
+	public HudMod mod;
+	
+	public ModButton(int x, int y, int w, int h, HudMod m) {
+		
+	}
+
+}

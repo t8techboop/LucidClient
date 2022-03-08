@@ -1,0 +1,8 @@
+package lucidclient.hud.mod;
+
+import net.minecraft.client.Minecraft;
+
+public class HudMod {
+
+	public Minecraft mc = Minecraft.getMinecraft();
+}

@@ -1,0 +1,13 @@
+package lucidclient.mod.impl;
+
+import lucidclient.mod.Category;
+import lucidclient.mod.Mod;
+
+public class TestMod extends Mod{
+
+	public TestMod() {
+		super("TestMod", "Test Mod", Category.MISC);
+		
+	}
+
+}

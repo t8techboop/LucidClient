@@ -1,0 +1,40 @@
+package lucidclient.hud.mod.impl;
+
+import lucidclient.hud.mod.HudMod;
+import net.minecraft.client.settings.KeyBinding;
+
+public class Keystrokes extends HudMod {
+
+	public Keystrokes() {
+		super("Keystrokes", 500, 100);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static class Key {
+		
+		private String name;
+		private final KeyBinding keyBind;
+		private final int x,y,w,h;
+
+		public Key(String name, KeyBinding KeyBind, int x, int y, int w, int h) {
+			this.name = name;
+			this.keyBind = KeyBind;
+			this.x = x;
+			this.y = y;
+			this.w = w;
+			this.h = h;
+		}
+		public boolean isDown() {
+			return keyBind.isKeyDown();
+			
+
+		}
+		
+		public void getHeight() {
+			
+
+		}
+		
+	}
+
+}

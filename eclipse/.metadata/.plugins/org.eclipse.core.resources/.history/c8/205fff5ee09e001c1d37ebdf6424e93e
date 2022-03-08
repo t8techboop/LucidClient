@@ -1,0 +1,10 @@
+package lucidclient.util.config;
+
+import java.io.File;
+
+public class Config {
+	
+	public File configFolder = new File("LucidClient");
+	public File configMods = new File("LucidClient");
+
+}

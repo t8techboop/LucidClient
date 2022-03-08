@@ -1,0 +1,5 @@
+package lucidclient.ui.clickgui.comp;
+
+public class ModButton {
+
+}

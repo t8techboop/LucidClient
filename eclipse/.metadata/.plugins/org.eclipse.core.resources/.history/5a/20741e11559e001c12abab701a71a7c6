@@ -1,0 +1,12 @@
+package lucidclient.hud.mod.impl;
+
+import lucidclient.hud.mod.HudMod;
+
+public class Keystrokes extends HudMod {
+
+	public Keystrokes() {
+		super("Keystrokes", 500, 150);
+		// TODO Auto-generated constructor stub
+	}
+
+}

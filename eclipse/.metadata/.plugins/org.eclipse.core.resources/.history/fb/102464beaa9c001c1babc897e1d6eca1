@@ -1,0 +1,8 @@
+package lucidclient.mod;
+
+public enum Category {
+
+	Hud,
+	
+	
+}

@@ -1,0 +1,28 @@
+package lucidclient.ui.clickgui.comp;
+
+import lucidclient.hud.mod.HudMod;
+import net.minecraft.client.gui.Gui;
+
+public class ModButton {
+	
+	public int x, y, w, h;
+	
+	
+	public HudMod mod;
+	
+	public ModButton(int x, int y, int w, int h, HudMod m) {
+		
+		this.x = x;
+		this.y = y;
+		this.w = w;
+		this.h = h;
+		this.mod = m;
+		
+	}
+	
+	public void draw()
+		Gui.drawRect(y, x, h, w, h, new Color(0, 0, 0, 0).getRGB);
+
+	}
+
+}

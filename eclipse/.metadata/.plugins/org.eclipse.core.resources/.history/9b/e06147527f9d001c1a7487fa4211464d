@@ -1,0 +1,10 @@
+package lucidclient.hud.mod;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.FontRenderer;
+
+public class HudMod {
+
+	public Minecraft mc = Minecraft.getMinecraft();
+	public FontRenderer fr = mc.fontRendererObj;
+}
