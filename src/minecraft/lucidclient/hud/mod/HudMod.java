@@ -1,9 +1,12 @@
 package lucidclient.hud.mod;
 
 import java.awt.Color;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import lucidclient.LucidClient;
 import lucidclient.hud.DraggableComponent;
+import lucidclient.settings.Setting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 
@@ -11,6 +14,8 @@ public class HudMod {
 
 	public Minecraft mc = Minecraft.getMinecraft();
 	public FontRenderer fr = mc.fontRendererObj;
+	
+	public ArrayList<Setting> settings;
 	
 	public String name;
 	public boolean enabled = true;
@@ -20,20 +25,16 @@ public class HudMod {
 
 	public HudMod(String name, int x, int y) {
 		this.name = name;
-		
-		try {
-			this.x = (int) LucidClient.INSTANCE.config.config.get(name + " x");
-			this.y = (int) LucidClient.INSTANCE.config.config.get(name + " y");
-			this.setEnabled((boolean) LucidClient.INSTANCE.config.config.get(name + " enabled"));
-		}catch (NullPointerException e) {
-			e.printStackTrace();
 			this.x = x;
 			this.y = y;
-			this.enabled = false;
-			
-		}
-		
-		drag = new DraggableComponent(this.x, this.y, getWidth(), getHeight(), new Color(0, 0, 0, 0).getRGB());
+
+		settings = new ArrayList<Setting>();
+		drag = new DraggableComponent(x, y, getWidth(), getHeight(), new Color(0, 0, 0, 0).getRGB());
+	}
+	
+	public void addSettings(Setting...sets) {
+		//this.settings.add((Setting) Arrays.asList(sets));
+
 	}
 	
 	//§

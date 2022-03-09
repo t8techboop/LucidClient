@@ -3,12 +3,18 @@ package lucidclient.hud.mod.impl;
 import java.awt.Color;
 
 import lucidclient.hud.mod.HudMod;
+import lucidclient.settings.BooleanSetting;
+import lucidclient.settings.ModeSetting;
 import net.minecraft.client.gui.Gui;
 
 public class TestMod extends HudMod {
 
+	BooleanSetting test = new BooleanSetting("test", true);
+	ModeSetting testMode = new ModeSetting("Test Mode", "Mode1", "Mode1", "Mode2", "Mode3");
+	
 	public TestMod() {
 		super("TestMod", 5, 5);
+		this.addSettings(test,testMode);
 
 	}
 	

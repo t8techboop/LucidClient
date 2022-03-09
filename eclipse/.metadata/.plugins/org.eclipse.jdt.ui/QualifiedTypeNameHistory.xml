@@ -18,10 +18,8 @@
     <fullyQualifiedTypeName name="net.minecraft.entity.EntityLivingBase"/>
     <fullyQualifiedTypeName name="net.minecraft.entity.passive.EntitySheep"/>
     <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="net.minecraft.client.gui.ScaledResolution"/>
     <fullyQualifiedTypeName name="lucidclient.LucidClient"/>
-    <fullyQualifiedTypeName name="lucidclient.ui.clickgui.ClickGui"/>
     <fullyQualifiedTypeName name="lucidclient.ui.clickgui.comp.ModButton"/>
     <fullyQualifiedTypeName name="net.minecraft.client.renderer.tileentity.TileEntitySkullRenderer"/>
     <fullyQualifiedTypeName name="net.minecraft.client.multiplayer.ServerList"/>
@@ -43,4 +41,10 @@
     <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.Keystrokes.Key"/>
     <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
     <fullyQualifiedTypeName name="lucidclient.hud.mod.impl.Keystrokes"/>
+    <fullyQualifiedTypeName name="lucidclient.ui.clickgui.ClickGui"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="lucidclient.settings.Setting"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="lucidclient.settings.BooleanSetting"/>
+    <fullyQualifiedTypeName name="lucidclient.settings.ModeSetting"/>
 </qualifiedTypeNameHistroy>

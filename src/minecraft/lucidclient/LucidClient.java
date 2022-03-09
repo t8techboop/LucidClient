@@ -29,7 +29,7 @@ public class LucidClient {
 		
 		config.loadModConfig();
 		
-		SessionChanger.getInstance().setUserOffline("Terminator0011");		
+		//SessionChanger.getInstance().setUserOffline("Terminator0011");		
 		System.out.println(NAME + VERSION + AUTHOR);
 
 		eventManager.register(this);

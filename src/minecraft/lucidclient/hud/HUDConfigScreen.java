@@ -1,7 +1,10 @@
 package lucidclient.hud;
 
+import java.io.IOException;
+
 import lucidclient.LucidClient;
 import lucidclient.hud.mod.HudMod;
+import lucidclient.ui.clickgui.ClickGui;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 
@@ -27,6 +30,15 @@ public class HUDConfigScreen extends GuiScreen {
 		
 		super.drawScreen(mouseX, mouseY, partialTicks);
 		
+	}
+	
+	@Override
+	protected void actionPerformed(GuiButton button) throws IOException {
+		super.actionPerformed(button);
+		switch(button.id) {
+		case 6340:
+		mc.displayGuiScreen(new ClickGui());
+		}
 	}
 
 }
